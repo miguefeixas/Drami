@@ -6,6 +6,10 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		4B2B90782E6366C700674AC4 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 4B2B90772E6366C100674AC4 /* README.md */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXContainerItemProxy section */
 		4B2B904A2E63659800674AC4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -27,6 +31,7 @@
 		4B2B90372E63659600674AC4 /* Drami.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Drami.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2B90492E63659800674AC4 /* DramiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DramiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B2B90532E63659800674AC4 /* DramiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DramiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B2B90772E6366C100674AC4 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -75,6 +80,7 @@
 		4B2B902E2E63659600674AC4 = {
 			isa = PBXGroup;
 			children = (
+				4B2B90772E6366C100674AC4 /* README.md */,
 				4B2B90392E63659600674AC4 /* Drami */,
 				4B2B904C2E63659800674AC4 /* DramiTests */,
 				4B2B90562E63659800674AC4 /* DramiUITests */,
@@ -212,6 +218,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2B90782E6366C700674AC4 /* README.md in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
